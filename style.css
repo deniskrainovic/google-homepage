@@ -1,4 +1,8 @@
 
+body {
+    width: 100%;
+}
+
 .navtop {
     list-style-type: none;
     padding: 0;
@@ -7,7 +11,7 @@
     text-align: right;
 }
 
-li {
+ul.navtop li {
     display: inline;
     margin-left: 10px;
     margin-right: 10px;
@@ -27,6 +31,7 @@ li {
     margin-top: 15px;
     width: 550px;
     height: 36px;
+    font-size: 1.5em;
 }
 
 button {
@@ -35,5 +40,38 @@ button {
     height: 30px;
 }
 
+.bottom-upper-navbar {
+    border-bottom: solid 1px #e7e7e7
+}
 
 
+.bottom-bottom-navbar {
+    
+}
+
+.bottom-navbar {
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+    background-color: #f2f2f2;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.bot-right {
+    float: right;
+}
+
+.bot-left {
+    float:left;
+}
+
+li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
